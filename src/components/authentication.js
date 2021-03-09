@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import "./FontawesomeIcons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class Authentication extends Component {
     render() {
@@ -11,6 +13,7 @@ export default class Authentication extends Component {
 
                 <a class="button is-dark">
                     <span class="icon">
+                        <FontAwesomeIcon icon={['fab', 'github']} />
                     </span>
                     <span>Sign in with GitHub</span>
                 </a>
