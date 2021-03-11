@@ -5,7 +5,7 @@ export class AppHeader extends Component {
         return (
             <div className="form auth">
                 <div className="header-section is-flex">
-                    <div class="avatar-container">
+                    <div className="avatar-container">
                         <img src={this.props.img} alt="user-avatar" />
                     </div>
                     <div className="heading">
