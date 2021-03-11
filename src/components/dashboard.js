@@ -8,7 +8,34 @@ function Dashboard() {
             name="Jane Doe" 
             role="UI/UX Engineer"/>
         <div className="dashboard-stats">
-            <div class=""></div>
+            <div className="columns">
+                <div class="column">
+                    <div className="stat-container form">
+                        <div className="heading">
+                            <h1 className="title is-size-3 has-text-centered">2</h1>
+                            <p className="subtitle is-size-6 has-text-centered is-capitalized">issues resolved today</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div className="stat-container form">
+                        <div className="heading">
+                            <h1 className="title is-size-3 has-text-centered">5</h1>
+                            <p className="subtitle is-size-6 has-text-centered is-capitalized">issues resolved in the past 7 days</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="columns">
+                <div class="column">
+                    <div className="stat-container form">
+                        <div className="heading">
+                            <h1 className="title is-size-3 has-text-centered">9</h1>
+                            <p className="subtitle is-size-6 has-text-centered is-capitalized">issues resolved in the past 31 days</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   );
